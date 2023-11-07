@@ -1,0 +1,10 @@
+# PyCharm files
+.idea
+# Audio folder
+audio
+# Python virtual environment
+venv
+# Environment variables
+.env
+# Transcripts text file
+transcript.txt
