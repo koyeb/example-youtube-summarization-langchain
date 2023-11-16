@@ -62,7 +62,7 @@ You will be taken to the deployment page where you can follow the build of your 
 
 ## Contributing
 
-If you have any questions, ideas or suggestions regarding this application sample, feel free to open an [issue](https://github.com/koyeb/example-youtube-summarizer/issues) or fork this repository and open a [pull request](https://github.com/koyeb/example-youtube-summarizer/pulls).
+If you have any questions, ideas or suggestions regarding this application sample, feel free to open an [issue](https://github.com/koyeb/example-youtube-summarization-langchain/issues) or fork this repository and open a [pull request](https://github.com/koyeb/example-youtube-summarization-langchain/pulls).
 
 ## Contact
 
