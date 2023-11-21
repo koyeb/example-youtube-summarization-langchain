@@ -19,7 +19,7 @@
 
 Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, or infrastructure management.  This repository contains a YouTube Summarization application you can deploy on the Koyeb serverless platform for testing.
 
-This example application is designed to show how a YouTube Summarization application can be deployed on Koyeb.  You can follow the associated [tutorial](https://koyeb.com/tutorials/build-and-deploy-a-youtube-video-summarization-using-langchain-deepgram-and-mistral7b) to learn more about the application and how to extend it.
+This example application is designed to show how a YouTube Summarization application can be deployed on Koyeb.  You can follow the associated [tutorial](https://www.koyeb.com/tutorials/use-langchain-deepgram-and-mistral7b-to-build-a-youtube-video-summarization-app) to learn more about the application and how to extend it.
 
 ## Getting Started
 
