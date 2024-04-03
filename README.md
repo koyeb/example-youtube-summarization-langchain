@@ -33,7 +33,7 @@ You need a Koyeb account to successfully deploy and run this application. If you
 
 The fastest way to deploy the YouTube summarization application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=youtube-summarization&type=git&repository=koyeb/example-youtube-summarization-langchain&branch=main&run_command=streamlit%20run%20main.py&env[DEEPGRAM_API_KEY]=REPLACE_ME&ports=8501;http;/)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=youtube-summarization&type=git&repository=koyeb/example-youtube-summarization-langchain&branch=main&builder=buildpack&run_command=streamlit%20run%20main.py&env[DEEPGRAM_API_KEY]=REPLACE_ME&ports=8501;http;/)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application. Remember to replace the values of the `DEEPGRAM_API_KEY` environment variable with your own information (as described in the section on integrating Deepgram).
 
