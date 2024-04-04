@@ -45,17 +45,14 @@ If you want to customize and enhance this application, you need to fork this rep
 
 If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.  Alternatively, you can manually create the application as described below.
 
-On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** button to go to the App creation page.
+On the [Koyeb Control Panel](https://app.koyeb.com/), on the **Overview** tab, click **Create Web Service** to begin.
 
-1. Select `GitHub` as the deployment method to use.
+1. Select **GitHub** as the deployment method to use.
 2. In the repositories list, select the repository you just forked.
-3. Specify the branch to deploy, in this case `main`.
-4. Choose the `Buildpack` builder for the builder option.
-5. Click Build and deploy settings to configure your Run command by selecting Override and adding the same command as when you ran the application locally: `streamlit run main.py`.
-6. In the Instance selection, click "XLarge". This will provide you instance a good balance between performance and cost.
-7. Click Advanced to view additional settings.
-8. Set the port to `8501`. This is the port Streamlit uses to serve your application.
-Click the Add Variable button to add your Deepgram API key named `DEEPGRAM_API_KEY`.
+3. In the **Builder** section, choose **Buildpack**.  Click the **override** toggle associated with the **Run command** and enter `streamlit run main.py` in the field.
+4. In the **Instance** selection, click "XLarge". This will provide you instance a good balance between performance and cost.
+5. Expand the **Exposed ports** section. Set the port to `8501`. This is the port Streamlit uses to serve your application.
+6. Expand the **Environment variables** section. Click the **Add variable** button to add your Deepgram API key named `DEEPGRAM_API_KEY`.
 9. Give your App a name, i.e `youtube-summarization`, and click **Deploy**.
 
 You will be taken to the deployment page where you can follow the build of your YouTube summarization application. Once the build is completed, your application will be deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
